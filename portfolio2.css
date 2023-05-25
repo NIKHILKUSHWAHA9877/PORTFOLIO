@@ -736,7 +736,7 @@ ul {
      display: block;
  }
  .is-size-5-desktop {
-     font-size: 1.9rem !important;
+     font-size: 2rem !important;
      margin-top: 50px;
  }
 
@@ -763,8 +763,8 @@ ul {
 
 
  .navbar-brand{
-     font-size: 25px;
-    padding: 28px;
+     font-size: 30px;
+    padding: 29px;
  
 }
 
