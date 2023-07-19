@@ -59,13 +59,13 @@ body{
   background: #1D212B;
 }
 
+
  section{
    height: 100vh; 
    width: 100%; 
 text-align: center;
 position: sticky;
  top: 0;
-
 } 
 
 .sk_img{
@@ -108,33 +108,8 @@ background-color:#1D212B;
 
 
 
-
-section .cards .text-card{
-  background: #2696E9;
-  margin: 20px;
-  padding: 30px;
-}
-
-section .cards .text-card h3{
-  font-size: 30px;
-  text-transform: uppercase;
-  align-items: center;
-  justify-content: center;
-  
-}
-
-
-  .cards{
-    flex-direction: column;
-    overflow: hidden;
-    display: flex;
-width: 50%;
-height: 1000px;
-margin-left: auto;
-margin-right: auto;
-  }
-
-.reveal{ 
+/* this is giving slowmo upcoming animation to contact sectiomn last */
+/* .reveal{ 
   transform: translateY(110px);
   opacity: 5;
   transition: all 1s ease;
@@ -144,19 +119,78 @@ margin-right: auto;
 .reveal.active{
   transform: translateY(0px);
   opacity: 1;
-}
+} */
 
 
-  section h2{
+  /* section h2{
 font-size: 60px;
 font-weight: bolder;
+padding: 50px;
+  } */
+  .overlay {
+    position: absolute;
+   bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 25vh;
+    z-index: 100;
+  margin-bottom: 20%;
+ 
+     /* background: rgb(255, 255, 255); 
+     background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 1) 75%,
+      rgba(255, 255, 255, 0.9) 80%,
+      rgba(255, 255, 255, 0.25) 95%,
+      rgba(255, 255, 255, 0) 100%
+    );  */
   }
+  
+  .text {
+    font-size: 100px;
+    display: flex;
+    letter-spacing: -20px;
+    position: absolute;
+    bottom: 30vh;
+    left: 50%;
+    transform: translateX(-50%);
+    .wrapper {
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 20px;
+      .letter {
+        transition: ease-out 1s;
+        transform: translateY(40%);
+      }
+      .shadow {
+        transform: scale(1, -1);
+        color: #999;
+        transition: ease-in 5s, ease-out 5s;
+      }
+      &:hover {
+        .letter {
+          transform: translateY(-200%);
+        }
+        .shadow {
+          opacity: 0;
+          transform: translateY(200%);
+        }
+      }
+    }
+  }
+  
+
+
+
+
 
   .Contact_head{
     font-size: 40px;
 
 
   }
+
+  
  .navbar-toggler {
 background-color: rgb(221, 219, 214);
  }
@@ -388,9 +422,10 @@ background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQ0MCIgaGVpZ2h0
   background-color:snow ;
   background-size:100%;
   align-items: center;
-  margin-top: 50px;
+  /* margin-top: 50px; */
    /* height: 50px; */
    padding: 80px;
+   
 }
 
 
@@ -666,7 +701,7 @@ font-size: 40px ;
 } */
 section.sk{
   height: 119vh; 
-  width: 100%; 
+  
 text-align: center;
 position: sticky;
 top: 0;
