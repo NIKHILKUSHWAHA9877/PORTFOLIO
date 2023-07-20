@@ -231,25 +231,6 @@ height: 100%;
      }
 
 }
-/* @media (max-width:  1366px ) {
-
-  .skill h4{
-    font-size: 182px;
-    margin-left: auto;
-    margin-right: 100%;
-        }
-    
-}
-
-@media (max-width:  1366px ) {
-
-  .type h5{
-    font-size: 35px;
-    font-weight: bold;
-        }
-    
-} */
-
 
 
  @media (max-width: 1017px){
@@ -997,4 +978,105 @@ font-size: 3.5rem;
 }
 .containIMG:hover {
   transform: scale(1.1) ;
+}
+
+
+
+/* infinite animatiion */
+
+.ticker-wrap {
+  font-weight: 600;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  width: 100%;
+  overflow: hidden;
+  height: 1.6rem;
+  background-color: #0000;
+  padding-left: 100%;
+  box-sizing: content-box;
+}
+
+.ticker-wrap .ticker {
+  display: inline-block;
+  height: 1.6rem;
+  line-height: 1.6rem;
+  white-space: nowrap;
+  padding-right: 100%;
+  box-sizing: content-box;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-name: ticker;
+  animation-name: ticker;
+  -webkit-animation-duration: 104s;
+  animation-duration: 104s;
+}
+@keyframes ticker {
+  0% {
+      -webkit-transform: translate3d(0,0,0);
+      transform: translateZ(0);
+      visibility: visible;
+  }
+
+  to {
+      -webkit-transform: translate3d(-100%,0,0);
+      transform: translate3d(-100%,0,0);
+  }
+}
+
+.ticker-heading {
+  font-family: Beatrice,sans-serif;;
+  position: absolute;
+  display: block;
+  left: 0;
+  bottom:  110;
+  height: 2.5rem;
+  padding: 11px 40px;
+  z-index: 3;
+  text-transform: uppercase;
+  font-size: .875rem
+ 
+}
+
+.ticker-wrap .ticker__item:before {
+  content: "";
+  height: 11px;
+  width: 11px;
+  display: inline-block;
+  background-color: #0000;
+  border-radius: 100%;
+  position: relative;
+  margin-right: 15px
+}
+
+.ticker-heading:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  position: absolute;
+  margin-left: 40px
+}
+
+.ticker-wrap .ticker:hover {
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -ms-animation-play-state: paused;
+  -o-animation-play-state: paused;
+  animation-play-state: paused;
+}
+
+.ticker-wrap .ticker__item {
+  display: inline-block;
+  font-size: .875rem;
+}
+
+@media only screen and (max-width: 700px) {
+ 
+  .ticker-wrap {
+      display: none
+  }
 }
