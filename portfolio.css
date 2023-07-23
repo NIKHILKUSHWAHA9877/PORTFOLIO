@@ -1242,20 +1242,14 @@ section .kPQvdk2 {
   align-items: center;
   text-align: center;
   justify-content: space-between;
+
 }
-
-
 @media screen and (min-width: 1000px){
-
-  section .kPQvdk2{
-    height: 110vh !important;
-    padding-bottom: 80px !important;
-
+  .kPQvdk2 {
+  height: 110vh !important;
+  padding-bottom: 90px !important;
   }
-
 }
-  
-
 
 .info2 {
   margin-top: 210px !important;

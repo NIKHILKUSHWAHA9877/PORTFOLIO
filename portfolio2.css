@@ -747,7 +747,34 @@ ul {
         text-align: center;
     } 
 }
+@media screen and (min-width: 895px) and (max-width: 999px){
+    .kPQvdk2 {
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+      /* height: 120vh !important; */
+        }
+        video{
+            height: 80% !important;
+            width: 80% !important;
+          /* margin-bottom: 160px !important; */
+        }
+        .Other_projhead{
+font-size: 100px;
+white-space: nowrap;
+        }
+        .other_projecttext1{
+            white-space: nowrap;
+        }
+.other_projecttex{
+font-size: 20px !important;
+width: 200%;
+}
+.other_projectDiv{
 
+width: 138% !important;
+}
+}
 @media screen and (min-width: 770px) and (max-width: 980px) {
 /* bilkul perfect shayed no */
     .container {
