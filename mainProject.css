@@ -568,50 +568,50 @@ text-align: left;
     transform: translateY(2px);
 }
 
-.kHTMAT {
+.kHTMAT2 {
     /* background: #154379; */
-    background-color: rgb(62, 207, 193);
+    background-color: #6E07F3 ;
     border: 0.2em solid #0a0a0a;
     animation: fadeInFromNone .5s ease-out;
 }
 
 @media screen and (min-width: 900px) {
-    .kHTMAT {
+    .kHTMAT2 {
         height:75rem;
     }
 }
 
 @media screen and (max-width: 900px) {
-    .kHTMAT {
+    .kHTMAT2 {
         padding-top:4rem;
     }
 
-    .kHTMAT section {
+    .kHTMAT2 section {
         -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     }
 
-    .kHTMAT section .left,.kHTMAT section .right {
+    .kHTMAT2 section .left,.kHTMAT2 section .right {
         width: 100% !important;
     }
 }
 
-.kHTMAT section {
+.kHTMAT2 section {
     height: 60%;
     text-align: left;
 }
 
-/* .kHTMAT section .right {
+/* .kHTMAT2 section .right {
    
 }  */
 
- .kHTMAT section .left {
+ .kHTMAT2 section .left {
     width: 35%;
     color: white;
 } 
 
-.kHTMAT section .left .p__title  h3 {
+.kHTMAT2 section .left .p__title  h3 {
     color: black;
     text-shadow: 1px 1px #fff, 2px 2px #fff, 3px 3px #0a0a0a;
     font-weight: 800;
@@ -623,14 +623,14 @@ text-align: left;
     font-family: 'Exo 2', sans-serif;
 }
 
-.kHTMAT section .left .p__desc p {
+.kHTMAT2 section .left .p__desc p {
     margin-bottom: 1.5rem;
     font-size: 53.5%;
     color: black;
     font-family: 'Roboto Mono',monospace;
 }
 
-.kHTMAT section .left .p__desc a {
+.kHTMAT2 section .left .p__desc a {
     position: relative;
     z-index: 5;
     color: black;
@@ -638,11 +638,11 @@ text-align: left;
     text-decoration: underline;
 }
 
-.kHTMAT section .left .p__desc a:hover {
+.kHTMAT2 section .left .p__desc a:hover {
     color: white;
 }
 
-.kHTMAT section .left .p__tags p {
+.kHTMAT2 section .left .p__tags p {
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 1.5rem;
@@ -652,12 +652,12 @@ text-align: left;
     font-family: 'Roboto Mono',monospace !important;
 }
 
-.kHTMAT section .left .p__tags ul {
+.kHTMAT2 section .left .p__tags ul {
     margin-top: 1rem;
     list-style: none;
 }
 
-.kHTMAT section .left .p__tags ul li {
+.kHTMAT2 section .left .p__tags ul li {
     margin-bottom: 1rem;
     position: relative;
     color: black;
@@ -666,11 +666,11 @@ text-align: left;
     font-family: 'Roboto Mono',monospace !important ;
 }
 
-.kHTMAT section .left .p__tags ul li:last-child {
+.kHTMAT2 section .left .p__tags ul li:last-child {
     margin-bottom: 0;
 }
 
-.kHTMAT section .left .p__tags ul li:before {
+.kHTMAT2 section .left .p__tags ul li:before {
     content: '';
     position: absolute;
     height: 8px;
@@ -681,7 +681,7 @@ text-align: left;
     z-index: 5;
 }
 
-.kHTMAT section .left .p__tags ul li:after {
+.kHTMAT2 section .left .p__tags ul li:after {
     content: '';
     position: absolute;
     height: 8px;
@@ -695,11 +695,11 @@ text-align: left;
     transform: rotate(90deg);
 }
 
-.kHTMAT section .left .p__cta {
+.kHTMAT2 section .left .p__cta {
     margin-top: 2.5rem;
 }
 
-.kHTMAT section .left .p__cta button {
+.kHTMAT2 section .left .p__cta button {
     align-items: center;
     appearance: none;
     background-color: #FCFCFD;
@@ -730,16 +730,16 @@ text-align: left;
     font-size: 18px;
   }
   
-  .kHTMAT section .left .p__cta button:focus {
+  .kHTMAT2 section .left .p__cta button:focus {
     box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
   }
   
-  .kHTMAT section .left .p__cta button:hover {
+  .kHTMAT2 section .left .p__cta button:hover {
     box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
     transform: translateY(-2px);
   }
   
-  .kHTMAT section .left .p__cta button:active {
+  .kHTMAT2 section .left .p__cta button:active {
     box-shadow: #D6D6E7 0 3px 7px inset;
     transform: translateY(2px);
 }
